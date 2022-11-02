@@ -217,6 +217,10 @@ nav .btn:hover {
     font-size: 20px;
     padding: 7px 10px;
     border-radius: 0 0.5rem 0 0.5rem;
+    transition: all .4s ease;
+}
+.box i:hover {
+    transform:scale(1.2)
 }
 .service-container{
     display: grid;
