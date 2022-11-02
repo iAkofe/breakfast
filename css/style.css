@@ -4,11 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+h1,h2,h3,h4,p {
+    color: #fff;
+}
 :root {
-    --bg-color: #ddeac1;
-    --other-color: #eeefeb;
-    --main-color: #494449;
-    --text-color: #857f74;
+    --bg-color: #2D2115;
+    --other-color: #FFFBF5;
+    --main-color: #FF6B2E;
+    --text-color: #FCFBFC;
 }
 body{
     background-color: var(--bg-color);
@@ -50,7 +53,7 @@ nav ul li a {
 }
 nav .btn {
     padding: 10px 40px;
-    background-color: var(--text-color);
+    background-color: var(--main-color);
     color: var(--other-color);
     font-size: 1.1rem;
     line-height: 25px;
@@ -98,7 +101,7 @@ nav .btn:hover {
 .hero a {
     display: inline-block;
     padding: 10px 20px;
-    background: var(--text-color);
+    background: var(--main-color);
     color: var(--other-color);
     border-radius: 30px;
     text-decoration: none;
@@ -139,7 +142,7 @@ nav .btn:hover {
 .about-text a {
     display: inline-block;
     padding: 10px 20px;
-    background: var(--text-color);
+    background: var(--main-color);
     color: var(--other-color);
     border-radius: 30px;
     text-decoration: none;
@@ -178,7 +181,8 @@ nav .btn:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--other-color);
+    background: #ffddce;
+    border-top-right-radius: 0.5rem;
 }
 .box-img {
     width: 220px;
@@ -234,6 +238,18 @@ nav .btn:hover {
 }
 .s-box p{
     line-height: 1.7;
+    margin-bottom: 25px;
+}
+.s-box i {
+    background: var(--main-color);
+    color: var(--other-color);
+    font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    transition: all .4s ease;
+}
+.s-box i:hover {
+    transform: translateY(-12px);
 }
 .cta {
     background: var(--main-color);
