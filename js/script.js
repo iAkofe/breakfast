@@ -7,4 +7,4 @@ menu.addEventListener("click", function(){
 
 window.onscroll = () => {
     nav.classList.remove("active");
-}
+};
