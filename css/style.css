@@ -373,7 +373,7 @@ nav .btn:hover {
      display: initial;
      color: var(--text-color);
  }
- nav ul {
+ .navbar {
      position: absolute;
      top: -400px;
      left: 0;
@@ -381,14 +381,21 @@ nav .btn:hover {
      display: flex;
      flex-direction: column;
      text-align: center;
-     background: #FF6B2E08;
+     background: #FF6B2E;
      transition: all .3s ease;
+ }
+ .navbar li a:hover{
+    transform: translateX(-12px);
+    color: var(--bg-color);
  }
  nav .btn {
     display: none;
  }
- nav .active{
+ .navbar.active{
      top: 70px;
+ }
+ .navbar .active{
+    color: var(--text-color);
  }
  nav a{
      padding:0.8rem;
